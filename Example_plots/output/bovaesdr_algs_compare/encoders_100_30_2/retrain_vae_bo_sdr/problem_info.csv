@@ -1,0 +1,11 @@
+Setting,ProbName,n,m,f0,fmin (approx)
+1,Ackley_100d_bounds_-30.0_30.0,100,1,20.98596616,0
+2,Ackley_100d_bounds_-30.0_30.0,100,1,15.23283847,0
+3,Levy_100d_bounds_-10.0_10.0,100,1,19.55881659,0
+4,Levy_100d_bounds_-10.0_10.0,100,1,21.376552,0
+5,Rosenbrock_100d_bounds_-5.0_10.0,100,1,362890.9398,0
+6,Rosenbrock_100d_bounds_-5.0_10.0,100,1,143441.0342,0
+7,Styblinski-Tang_100d_bounds_-5.0_5.0,100,1,-704.1122754,-3916.599
+8,Styblinski-Tang_100d_bounds_-5.0_5.0,100,1,-152.3232251,-3916.599
+9,Rastrigin_100d_bounds_-5.12_5.12,100,1,1317.062246,0
+10,Rastrigin_100d_bounds_-5.12_5.12,100,1,1727.795348,0

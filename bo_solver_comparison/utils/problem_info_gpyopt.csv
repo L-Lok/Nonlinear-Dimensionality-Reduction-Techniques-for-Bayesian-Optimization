@@ -1,0 +1,13 @@
+Setting,ProbName,n,m,f0,fmin (approx)
+1,Beale,2,Not used,15,0
+2,Beale,2,Not used,550,0
+3,Rosenbrock,3,Not used,818,0
+4,Rosenbrock,3,Not used,3429,0
+5,hartmann3,3,Not used,-0.68293,-3.86278
+6,hartmann3,3,Not used,-2.74286,-3.86278
+7,hartmann6,6,Not used,-1.33398,-3.32237
+8,hartmann6,6,Not used,-1.48,-3.32238
+9, Shekel5,4,Not used,-0.20457,-10.1532
+10, Shekel5,4,Not used,-0.12659,-10.1532
+11, Rastrigin,5,Not used,20,0
+12, Rastrigin,5,Not used,61,0

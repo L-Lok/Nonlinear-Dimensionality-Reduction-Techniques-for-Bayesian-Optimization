@@ -1,0 +1,40 @@
+{
+  "activation": "SiLU",
+  "ambient_dim": 10,
+  "batch_size": 512,
+  "beta_final": 1.0,
+  "beta_start": 0.0,
+  "beta_step": 0.1,
+  "beta_step_freq": 10,
+  "beta_warmup": 0,
+  "checkpoint_min_beta": 1.0,
+  "checkpoint_selection": "best_validation_after_min_beta",
+  "correlation_value": 0.9,
+  "data_distribution": "truncated_high_correlation_normal",
+  "decoder_layer_dims": [
+    6,
+    32,
+    64,
+    10
+  ],
+  "decoder_output_activation": "linear",
+  "dtype": "float64",
+  "encoder_layer_dims": [
+    10,
+    64,
+    32,
+    6
+  ],
+  "epochs": 180,
+  "latent_dim": 6,
+  "learning_rate": 0.001,
+  "num_samples": 50000,
+  "optimizer": "Adam",
+  "seed": 9212,
+  "source": "Manuscript D10/d6 correlated-normal reference VAE",
+  "train_bounds_lower": -5.0,
+  "train_bounds_upper": 5.0,
+  "vae_id": "VAE-LD-controlled_D10_d6_A3_SiLU_linear",
+  "validation_fraction": 0.1,
+  "weight_decay": 1e-05
+}

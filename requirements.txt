@@ -1,0 +1,10 @@
+# Core BO-VAE, study-analysis, and test dependencies.
+torch
+botorch
+gpytorch
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+pytest

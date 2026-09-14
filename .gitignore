@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Generated study material and large tensors
+**/inputs/
+**/checkpoints/
+**/results/
+**/plot_data/
+**/figures/
+**/reports/
+*.pt
+*.pth
+*.npz
+*.lock
+
+# Local runtime output
+checkpoint.pt
+*.tmp

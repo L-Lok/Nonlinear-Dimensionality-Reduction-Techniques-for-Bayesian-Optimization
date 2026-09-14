@@ -1,0 +1,146 @@
+{
+  "ambient_dimensions": [
+    10,
+    100
+  ],
+  "base_coordinate_transform_version": "table_a3_full_domain_tanh_v2",
+  "bovae_methods": [
+    "fixed_sdr",
+    "retrain_sdr",
+    "retrain_dml_sdr"
+  ],
+  "bovae_seeds": [
+    1207310,
+    1207311,
+    1207312,
+    1207313,
+    1207314,
+    1207315,
+    1207316,
+    1207317,
+    1207318,
+    1207319
+  ],
+  "construction_seed_namespace": "curved-preimage-active-map|20260808",
+  "display_labels": {
+    "egorse_2de": "EGORSE 2d_e",
+    "egorse_de": "EGORSE d_e",
+    "fixed_sdr": "Fixed VAE + original SDR",
+    "retrain_dml_sdr": "Retrained VAE + DML + original SDR",
+    "retrain_sdr": "Retrained VAE + original SDR"
+  },
+  "egorse_backend_disclosure": "The display labels follow the study protocol. The executable public backend is the documented constrained-BO reconstruction because licensed SEGOMOE/SNOPT is unavailable; it is not the exact proprietary EGORSE software.",
+  "egorse_methods": [
+    "egorse_de",
+    "egorse_2de"
+  ],
+  "egorse_schedule": "legacy_elapsed_seconds_descending_longest_first",
+  "egorse_seeds": [
+    1207310,
+    1207313,
+    1207315,
+    1207318,
+    1207319
+  ],
+  "egorse_workers": 16,
+  "enrichment_evaluations": 800,
+  "execution_bases": [
+    "ackley",
+    "rosenbrock"
+  ],
+  "expected_combined_cells": 320,
+  "expected_new_bovae_cells": 120,
+  "expected_new_egorse_cells": 40,
+  "expected_new_total_cells": 160,
+  "expected_reused_cells": 160,
+  "expected_total_observations": {
+    "10": 810,
+    "100": 900
+  },
+  "fixed_alpha": 1.0,
+  "forbidden": [
+    "alternative latent dimensions",
+    "algorithm tuning",
+    "inferential superiority claims",
+    "linear-map optimization experiments",
+    "external structured maps",
+    "online hidden-map access",
+    "known-optimum access",
+    "post-decoding corrections",
+    "legacy output cache"
+  ],
+  "hypothesis": "BO-VAE retraining is more robust than a fixed-linear-subspace optimizer when the objective cannot be represented accurately by one fixed low-dimensional linear subspace.",
+  "initial_design_size": "D",
+  "problems": [
+    {
+      "D": 10,
+      "base_function": "branin",
+      "d_e": 2,
+      "global_minimum": 0.39788735772973816,
+      "problem_id": "curved_branin_d10_de2",
+      "q": 3
+    },
+    {
+      "D": 10,
+      "base_function": "ackley",
+      "d_e": 4,
+      "global_minimum": 0.0,
+      "problem_id": "curved_ackley_d10_de4",
+      "q": 5
+    },
+    {
+      "D": 10,
+      "base_function": "rosenbrock",
+      "d_e": 4,
+      "global_minimum": 0.0,
+      "problem_id": "curved_rosenbrock_d10_de4",
+      "q": 5
+    },
+    {
+      "D": 10,
+      "base_function": "rastrigin",
+      "d_e": 4,
+      "global_minimum": 0.0,
+      "problem_id": "curved_rastrigin_d10_de4",
+      "q": 5
+    },
+    {
+      "D": 100,
+      "base_function": "branin",
+      "d_e": 2,
+      "global_minimum": 0.39788735772973816,
+      "problem_id": "curved_branin_d100_de2",
+      "q": 3
+    },
+    {
+      "D": 100,
+      "base_function": "ackley",
+      "d_e": 4,
+      "global_minimum": 0.0,
+      "problem_id": "curved_ackley_d100_de4",
+      "q": 5
+    },
+    {
+      "D": 100,
+      "base_function": "rosenbrock",
+      "d_e": 4,
+      "global_minimum": 0.0,
+      "problem_id": "curved_rosenbrock_d100_de4",
+      "q": 5
+    },
+    {
+      "D": 100,
+      "base_function": "rastrigin",
+      "d_e": 4,
+      "global_minimum": 0.0,
+      "problem_id": "curved_rastrigin_d100_de4",
+      "q": 5
+    }
+  ],
+  "protocol_id": "bovae_vs_egorse_curved_preimage_table_a3_d10_d100_v2_20260819",
+  "reused_bases": [
+    "branin",
+    "rastrigin"
+  ],
+  "study_kind": "predeclared_full_table_a3_domain_rerun_with_unchanged_cell_reuse"
+}

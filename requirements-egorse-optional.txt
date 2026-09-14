@@ -1,0 +1,4 @@
+# Optional numerical backends for the EGORSE comparison.
+smt
+nlopt
+cvxopt
